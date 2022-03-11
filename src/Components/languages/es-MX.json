@@ -1,0 +1,12 @@
+{
+  "register": "Registrarse",
+  "name": "Nombre",
+  "email": "El-emaile",
+  "login": "El-logino",
+  "password": "clave",
+  "logged": "¿Ya estás registrado?",
+  "wrong": "algo salió mal",
+  "get": "Obtener cóctel",
+  "anotherOne": "Consigue otro cóctel",
+  "warning": "Debes completar todos los campos"
+}

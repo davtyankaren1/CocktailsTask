@@ -1,0 +1,37 @@
+.shakeMe {
+    font-size: 30px;
+    animation: shake .8s ease-in;
+    border: none;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(0);
+    }
+    10%,
+    20%,
+    30%,
+    40%,
+    50%,
+    60%,
+    70%,
+    80% {
+        transform: translate(2em);
+    }
+    10%,
+    30%,
+    50% {
+        transform: translate(-.5em);
+    }
+    70%,
+    100% {
+        transform: translate(0);
+        transform: rotate(30deg);
+    }
+}
+
+.watch {
+    position: absolute;
+    margin-top: -350px;
+    margin-left: -10px;
+}

@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myButton {
+    background: linear-gradient(to right, #4e942a 0%, #0c621c 79%);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    width: 65%;
+    height: 3rem;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-top: 20px;
+}

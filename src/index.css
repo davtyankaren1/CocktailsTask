@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+select {
+  align-items: center;
+  height: 3vh;
+  width: 7vw;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 5px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  width: 150px;
+  outline: 2px dashed transparent;
+}
+
+#ddlProducts * {
+  background-color: #475d48;
+  padding-top: 10px;
+  outline: 2px dashed transparent;
+}
+
+.out {
+  background-color: white;
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.items {
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.constent {
+  min-width: 200px;
+  background-color: rgba(8, 64, 14, 0.6);
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-top: 12px;
+}
+
+.addedDrink {
+  display: block;
+  margin-left: 80px;
+  margin-top: -42px;
+}
+
+.trash {
+  font-size: 30px;
+  color: #0d8d39;
+  cursor: pointer;
+  background-color: white;
+  left: 500px;
+}
+
+.allcontent {
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.Like {
+  border: none;
+  margin-top: 18px;
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: green;
+  border-radius: 15px;
+  font-size: 30px;
+}
+
+.Like:hover {
+  background-color: #4e942a;
+  color: white;
+}
+
+.changeCocktail {
+  margin-top: 20px;
+  position: absolute;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.35);
+  padding-top: -50px;
+  border-radius: 15px;
+  color: darkgreen;
+  font-weight: bold;
+  border: none;
+  margin-left: 5px;
+}
+
+.changeCocktail:hover {
+  background-color: #4e942a;
+  color: white;
+}
+
+.closer {
+  position: absolute;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: darkgreen;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 355px;
+  margin-top: -13px;
+  border: none;
+}
+
+.lime {
+  opacity: 60%;
+  position: absolute;
+  left: 1320px;
+  margin-top: 200px;
+  width: 350px;
+  z-index: 1;
+}
+
+.cocktail {
+  position: absolute;
+  z-index: 1;
+  width: 250px;
+  right: 150px;
+  bottom: 290px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .lime {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ContainerData p {
+  margin-top: 5px;
+  padding: 5px;
+  color: white;
+}

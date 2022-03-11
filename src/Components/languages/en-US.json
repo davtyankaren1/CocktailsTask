@@ -1,0 +1,12 @@
+{
+  "register": "Register",
+  "name": "Name",
+  "login": "Login",
+  "email": "Email",
+  "password": "Password",
+  "logged": "Already registered log in?",
+  "wrong": "Something went wrong",
+  "get": "Get Cocktail",
+  "anotherOne": "Get another cocktail",
+  "warning": "Needs to fill all the fields"
+}
