@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {IntlProvider} from 'react-intl';
 import Wrapper from "./Components/Wrapper/Wrapper";
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
